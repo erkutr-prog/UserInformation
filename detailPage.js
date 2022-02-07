@@ -63,7 +63,9 @@ const detailPage = (props) => {
                         style={styles.map}
                         initialRegion={{
                         latitude: region.latitude,
-                        longitude: region.longitude
+                        longitude: region.longitude,
+                        latitudeDelta: region.latitudeDelta,
+                        longitudeDelta: region.longitudeDelta
                     }}>
                         <Marker coordinate={region}></Marker>
                     </MapView>
