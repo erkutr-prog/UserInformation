@@ -31,10 +31,10 @@ App.options = {
     topBar: {
         title: {
             text: 'Users',
-            color: '#F5D97E',
+            color: '#EEEEEE',
         },
         background: {
-            color: '#F38181'
+            color: '#041562'
         },
         rightButtons: [
             {

@@ -19,7 +19,6 @@ const App = (props) => {
       .then((response) => response.json())
       .then((responseJSON) => {
         setData(responseJSON);
-        console.log("heye")
       })
     } catch {
       console.log("error")
@@ -50,16 +49,13 @@ const App = (props) => {
               color: '#F5D97E'
             },
             background: {
-              color: '#F38181'
+              color: '#041562'
             },
           }
         }
       }
     })
   }
-
-
-
 
   const Item = ({item, index}) => (
     <TouchableOpacity style={styles.item} onPress={() => getDetails(item, index) }>
